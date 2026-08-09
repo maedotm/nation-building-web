@@ -9,7 +9,7 @@ import { pageWidth, sectionPad, sectionKicker, heading2 } from '@/app/styles';
 
 export default function Book() {
   const [activeFramework, setActiveFramework] = useState(2);
-  const [openChapter, setOpenChapter] = useState(null);
+  const [openChapter, setOpenChapter] = useState<string | null>(null);
   const [citationCopied, setCitationCopied] = useState(false);
   const activePillar = framework[activeFramework];
 
@@ -54,7 +54,7 @@ export default function Book() {
               {/* ===== 3D FLIPPING BOOK COVER ===== */}
               <div className="mx-auto w-full max-w-[340px] [perspective:1600px]">
                 <div
-                  className="relative aspect-[340/500] w-full [transform-style:preserve-3d]"
+                  className="relative aspect-[340/00] w-full [transform-style:preserve-3d]"
                   style={{ animation: 'bookFlip 7s ease-in-out infinite' }}
                 >
                   {/* FRONT FACE — right-hand portion of the wrap image */}

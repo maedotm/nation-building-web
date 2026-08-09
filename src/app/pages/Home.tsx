@@ -64,10 +64,10 @@ export default function Home() {
             <div className="absolute right-[9%] top-10 z-[3] flex items-center gap-2 font-mono text-[10px] uppercase tracking-[.1em] text-mint lg:top-[65px]">
               <BookOpen size={15} /> Featured monograph
             </div>
-            <div className="relative z-[2] w-[180px] rotate-[7deg] animate-float drop-shadow-[25px_32px_22px_rgba(0,0,0,.35)] transition-transform duration-500 hover:-translate-y-2.5 hover:rotate-[2deg] lg:w-[280px]">
+            <div className="relative z-[2] w-[200px] rotate-[7deg] animate-float drop-shadow-[25px_32px_22px_rgba(0,0,0,.35)] transition-transform duration-500 hover:-translate-y-2.5 hover:rotate-[2deg] lg:w-[280px]">
               <img
                 className="block w-full"
-                src="/images/book-covers/book_cover_image_2026-07-23_.jpeg"
+                src="/images/book-covers/cover-front.jpeg"
                 alt="Building the Nation book cover"
               />
             </div>
