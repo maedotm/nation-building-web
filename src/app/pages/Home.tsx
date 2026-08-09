@@ -100,7 +100,7 @@ export default function Home() {
                 Infrastructure Equity Index (IEI) as analytical tools for examining territorial disparities.
               </p>
               <p className="mb-[22px] text-[15px] leading-[1.85] text-[#58736d]">
-                The central argument is that infrastructure equity—not merely investment volume or economic growth—is
+                The central argument is that infrastructure equity not merely investment volume or economic growth is
                 a decisive factor linking institutional capacity and governance quality to national cohesion.
               </p>
               <p className="mb-[22px] text-[15px] leading-[1.85] text-[#58736d]">
